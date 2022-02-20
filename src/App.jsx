@@ -10,7 +10,7 @@ import { useState } from "react";
 
 function App() {
   //set the state of the hamburgur icon
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return ( 
     <div className="app">

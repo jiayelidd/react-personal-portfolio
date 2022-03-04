@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Jay's personal React portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi, my name is Jay Li. 
 
 ## Available Scripts
 

@@ -1,6 +1,8 @@
+import { useState } from "react";
 import "./works.scss";
 
 export default function Works() {
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
     {
@@ -32,10 +34,16 @@ export default function Works() {
     },
   ];
 
+  const handleClick = (way) => {
+    way === "left"
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
+  };
+
   return (
     <div className='works' id="works">
       {/*这里每一个slide都已经有了，但是是横向排列的，一个slide占了一整页，所以不显示*/}
-      <div className="slider">
+      <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
         {data.map(d => (
           <div className="container">
             <div className="item">
@@ -50,15 +58,15 @@ export default function Works() {
                 </div>
               </div>
               <div className="right">
-                <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930" alt="" />
+                <img src={d.img} alt="" />
               </div>
             </div>
           </div>
         ))}
 
       </div>
-      <img src="assets/arrow.png" className="arrow left" alt="" />
-      <img src="assets/arrow.png" className="arrow right" alt="" />
+      <img src="assets/arrow.png" className="arrow left" alt="" onClick={() => handleClick("left")} />
+      <img src="assets/arrow.png" className="arrow right" alt="" onClick={() => handleClick()} />
     </div>
   )
 }

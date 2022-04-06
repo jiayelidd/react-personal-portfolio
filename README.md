@@ -1,6 +1,6 @@
 # Jay's personal React portfolio
 
-Hi, my name is Jay Li. This is my personal demo project, it is still a WIP. I will be updating this demo.
+Hi, my name is Jay Li. This is my personal demo project, it is still a WIP. I will be updating this portfolio.
 
 ## Available Scripts
 

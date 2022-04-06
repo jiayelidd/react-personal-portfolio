@@ -6,28 +6,28 @@ export default function Testimonials() {
     {
       id: 1,
       name: "Tom Durden",
-      title: "Senior Developer",
+      title: "Friend",
       img:
         "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "Jay is the most enthusiastic guy that I have every met. He is also a great guy to work with.",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "Zheyuan Xu",
+      title: "Friend",
       img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "../../assets/ZheYuan.jpg",
       icon: "assets/youtube.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "Jay is so passionate about everything he does. He is specially interested in Software Engineering, and the website he built is amazing. ",
       featured: true,
     },
     {
       id: 3,
       name: "Martin Harold",
-      title: "CEO of ALBI",
+      title: "Friend",
       img:
         "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/linkedin.png",

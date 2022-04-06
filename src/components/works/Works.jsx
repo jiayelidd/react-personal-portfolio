@@ -8,29 +8,29 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
+      title: "Food Order Page",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        "This is my ordering app demo for a website that I am building. I has the feature to store order food into the trolly.",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "../../assets/FoodOrder.jpg",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "Restaurant Page",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "This website is my first ever Bootstrap based website, It has an responsive design which will adjust its layout based on screen.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "../../assets/Restaurant.jpg",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Shopping List",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Shooping list is my first ever React project.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "../../assets/shoppingList.jpg",
     },
   ];
 

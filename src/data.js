@@ -3,25 +3,25 @@ export const featuredPortfolio = [
       id: 1,
       title: "Social Media App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "./assets/ShoppingList.jpg",
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Restaurant App",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "./assets/Restaurant.jpg",
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "Personal Portfolio Website",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "./assets/personalPortfolio.jpg",
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "Food Order Application",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "./assets/FoodOrder.jpg",
     },
     {
       id: 5,
@@ -65,8 +65,8 @@ export const featuredPortfolio = [
     },
     {
       id: 6,
-      title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+      title: "Food Order App",
+      img: "./assets/FoodOrder.jpg",
     },
   ];
   
